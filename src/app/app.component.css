@@ -1,0 +1,54 @@
+/*
+Color Palette: https://muffingroup.com/blog/pink-color-palette/  OoDeLally theme credit
+#f5eaee -- soft peach
+#e45250 -- salmon
+#eabf67 -- mustard
+#978e92 -- light warm grey
+#434044 -- dark warm grey
+
+*/
+
+/*
+Font pairings reference: https://govisually.com/blog/2020s-top-20-google-font-pairs-for-your-next-project/
+*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /* Cursive font for titling*/
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,500&display=swap'); /*italic*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+
+body{
+    background-color: #f5eaee;
+}
+
+.styled-box{
+   
+    width: 50%;
+    padding: 20px;
+    margin:auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', sans-serif;
+    font-size:75px;
+    color: #e45250;
+}
+
+i {
+    font-family: 'Josefin Slab';
+    color: black;
+    font-size: 40px;
+}
+p {
+    font-family: 'Josefin Slab';
+    color: black;
+    font-size: 40px;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #e45250;
+}
+a:hover{
+    color: #eabf67;
+}
