@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
 
 const routes: Routes = [
-  {path: 'underConstruction', component: UnderConstructionComponent},
+  {path: '', component: UnderConstructionComponent},
   {path: 'home', component: HomeComponent}
 ];
 
